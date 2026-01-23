@@ -67,6 +67,7 @@ Seasoned Senior IT Consultant with 12+ years of US experience and demonstrated e
 - Supported Anti Money Laundering (AML) platforms for multiple stakeholders across different time zones
 - Worked on Payments, Pricing Engine, and Real-Time Risk Assessment systems (RTRA)
 - Deployed systems across Regional Operations Centers in Europe, Latin America, Asia Pacific, and North America
+- Used podman and castle mock for efficient synthetic testing and simulation
 
 ### Senior Applications Architect at Western Union, Denver, CO  
 **September 2017 – November 2021**
