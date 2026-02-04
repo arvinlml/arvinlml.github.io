@@ -1,0 +1,184 @@
+document.querySelectorAll("[id^=ya-myab-display-address-block] div.a-section.address-section-with-default").forEach(x => { console.log(x.innerText);})
+VM5375:1 Aravindh Janakiraman
+362 HYDE PARK CIR
+CASTLE PINES, CO 80108-4002
+United States
+Phone number: ‪7728423857‬
+Add delivery instructions
+
+1 active subscription
+VM5375:1 Aravindh Janakiraman
+11911 WINTERTHUR LN APT 103
+RESTON, VIRGINIA 20191-1962
+United States
+Phone number: ‪5713541170‬
+Add delivery instructions
+undefined
+
+document.querySelectorAll("[id^=ya-myab-display-address-block] div.a-section.address-section-no-default").forEach(x => { console.log(x.innerText);})
+VM5490:1 Amazon Counter at Whole Foods Market Map
+6384 Promenade Parkway
+Castle Rock, CO 80108
+United States
+VM5490:1 Amazon Locker - Gauntlet Map
+7-Eleven
+4601 S Broadway
+Englewood, CO 80113-5725
+United States
+VM5490:1 Amazon Locker - Nokhu Map
+Ross Dress for Less
+1361 New Beale St Ste 200
+Castle Rock, CO 80108-3921
+United States
+VM5490:1 Aravindh Janakiraman
+100 SUMMIT AVE BM-244
+MONTVALE, NJ 07645-1733
+United States
+Phone number: ‪+16614957846‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+11911 Winterthur Ln, Apt 103
+Reston, Virginia 20191
+United States
+Phone number: ‪5712010649‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+20 COLUMBUS AVE FLR 1
+CLOSTER, NJ 07624-2456
+United States
+Phone number: ‪6614957846‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+362 HYDE PARK CIR
+CASTLE PINES, CO 80108-4002
+United States
+Phone number: ‪+18138096452‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+4 D, Sai Sujeet, Plot 41,412 421 @ 422
+Kamakoti Nagar, Pallikaranai
+Chennai, India, Tamil Nadu 600100
+India
+Phone number: ‪+919940027846‬
+VM5490:1 Aravindh Janakiraman
+450 W BURGUNDY ST UNIT 226
+HIGHLANDS RANCH, CO 80129-6620
+United States
+Phone number: ‪6614957846‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+4725 S KALAMATH ST
+ENGLEWOOD, CO 80110-6416
+United States
+Phone number: ‪+18138096452‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+4D SAI SUJEET 9TH CROSS STREET
+Kamakoti Nagar
+Chennai, Tamil Nadu 600100
+India
+Phone number: ‪8903492957‬
+VM5490:1 Aravindh Janakiraman
+4D SaiSujeet
+9 crs street Kamakoti Nagar
+CHENNAI, TAMIL NADU 600100
+India
+Phone number: ‪9361824947‬
+VM5490:1 Aravindh Janakiraman
+557 HOLLY CT
+MAHWAH, NJ 07430-3435
+United States
+Phone number: ‪+16614957846‬
+Add delivery instructions
+VM5490:1 Aravindh Janakiraman
+557 Holly Ct
+Mahwah, NJ 07430
+United States
+Phone number: ‪6614957846‬
+Add delivery instructions
+VM5490:1 Dev Patel
+Walnut st
+6
+West Mahwah, New Jersey 07430
+United States
+Phone number: ‪2016755556‬
+Add delivery instructions
+VM5490:1 Dr.Sivakumar Belu Suderson
+Flat 4
+49 Partick Bridge Street
+GLASGOW, Lanarkshire G11 6PQ
+United Kingdom
+Phone number: ‪0044 07891986493‬
+VM5490:1 Girija
+340, 9a/3, 6th Main Road
+Vijayanagar, Velachery
+CHENNAI, TAMIL NADU 600042
+India
+Phone number: ‪9444432957‬
+VM5490:1 Nathan Pak
+943 JUNIPER WAY
+MAHWAH, NJ 07430-3468
+United States
+Phone number: ‪+16614957846‬
+Add delivery instructions
+VM5490:1 Saluja Aravindh
+22716 PEAK ST
+HAYWARD, CA 94541-6524
+United States
+Phone number: ‪_12014069229‬
+Add delivery instructions
+VM5490:1 Saluja Aravindh
+28390 TRANQUIL LAKE CIR
+WESLEY CHAPEL, FL 33543-6537
+United States
+Phone number: ‪+15713541170‬
+Add delivery instructions
+VM5490:1 Saluja Aravindh
+310 E 500 S UNIT 308 SEASONS
+LIBRARY
+SALT LAKE CITY, UT 84111-3308
+United States
+Phone number: ‪5713541170‬
+Add delivery instructions
+VM5490:1 Saluja Aravindh
+5, 3rd Floor, Block 2, Aashirvad Enclave
+1&2 GST Road
+CHENNAI, TAMIL NADU 600044
+India
+Phone number: ‪9789955493‬
+VM5490:1 Saluja Aravindh
+5, 3rd Floor, Block 2, Aashirvad Enclave
+1&2 Gst Road, Chrompet
+CHENNAI, TAMIL NADU 600044
+India
+Phone number: ‪8903492957‬
+VM5490:1 Saluja Aravindh
+7
+BELLFLOWER CLOSE
+CASTLEFORD, WF10 5UF
+United Kingdom
+Phone number: ‪07424611172‬
+VM5490:1 SENTHILKUMARAN PITCHAIMANICKAM
+35724 GRANDVIEW CT
+FARMINGTON HILLS, MI 48335-2463
+United States
+Phone number: ‪+12487053119‬
+Add delivery instructions
+VM5490:1 Siva Sottallu
+7695 SPREADING OAK LN
+ELKRIDGE, MD 21075-6577
+United States
+Phone number: ‪443-878-5116‬
+Add delivery instructions
+VM5490:1 SV Realty Group LLC
+5216 HEATHERGLEN DR
+HIGHLANDS RANCH, CO 80130-8969
+United States
+Phone number: ‪3035019286‬
+Add delivery instructions
+VM5490:1 Swetha Denesh
+7249 Village Walk
+Mississauga, Ontario L5W1V7
+Canada
+Phone number: ‪647 923 8124‬
+undefined
