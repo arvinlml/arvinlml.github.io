@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AJAX Data Table</title>
+    <style>
+        body {
+            margin-left: 25px;
+            background-color: lightblue;
+        }
+
+        .table {
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        thead tr {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+
+        td, th {
+            border: 1px solid #999;
+            padding: 8px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $.ajax({ url: "https://jsonplaceholder.typicode.com/posts" }).then((data) => {
+                const h2 = document.createElement('h2');
+                h2.textContent = 'Coverage';
+                document.body.appendChild(h2);
+                buildTable(data);
+            });
+        });
+
+        function buildTable(data) {
+            const table = document.getElementById("dyn-table");
+            const thead = table.querySelector('thead');
+            const tbody = table.querySelector('tbody');
+            const headers = Object.keys(data[0]);
+
+            // Build header row
+            const headerRow = thead.insertRow();
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+
+            // Build data rows
+            data.forEach(row => {
+                const tr = tbody.insertRow();
+                headers.forEach(header => {
+                    const td = tr.insertCell();
+                    td.textContent = row[header];
+                });
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <table id="dyn-table" class="table">
+        <caption>Dynamic Table</caption>
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+</body>
+
+</html>
