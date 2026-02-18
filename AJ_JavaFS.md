@@ -7,15 +7,22 @@
 
 PROFESSIONAL SUMMARY
 
-Seasoned Java Full Stack Engineer with 12+ years of experience delivering scalable, secure, enterprise-grade applications. Expert in Java (8/11/17), Spring Boot, microservices, and modern front-end frameworks (Angular, React). Strong background in cloud-native architectures (AWS/GCP/Azure), CI/CD, observability, and DevSecOps. Proven ability to lead migrations, design resilient systems, and streamline delivery pipelines.
+Seasoned Java Full Stack Engineer with 12+ years of experience delivering scalable, secure, enterprise-grade applications. Expert in Java (8/11/17), Spring Boot, microservices, and modern front-end frameworks (Angular, React). Strong background in cloud-native architectures (AWS/GCP/Azure), CI/CD, observability, and DevSecOps. Proven ability to lead migrations, design resilient systems, and streamline delivery pipelines. Experienced in Infrastructure-as-Code (**Terraform**, AWS **CloudFormation**), and Privileged Access Management (**CyberArk**) for secure, auditable deployments and secrets management.
+
+KEY HIGHLIGHTS
+
+- Cloud & IaC Leader: Designed and operated AWS environments (EC2, EKS, RDS) using **Terraform** and **CloudFormation** for repeatable, auditable provisioning.
+- Secrets & PAM: Implemented **CyberArk**-based credential vaulting and rotation workflows across production pipelines to meet regulatory and audit requirements.
+- DevSecOps: Integrated IaC templates into CI/CD with automated policy checks, SAST/DAST, and secret scanning to prevent leaks into repo/state.
 
 CORE SKILLS
 
 - Java & Backend: Java 8/11/17, Spring Boot, Spring MVC, Spring Cloud, Spring Security, Hibernate/JPA
-- Frontend: Angular (1.x → v12+), React, TypeScript, JavaScript, HTML5, CSS3
+- Frontend & Full‑Stack JS: Angular (1.x → v12+), React, **TypeScript**, JavaScript, **Node.js**, HTML5, CSS3
 - Microservices & Integration: REST, gRPC, Kafka, RabbitMQ, API Gateway, OAuth2/OIDC, Okta
-- Cloud & Containers: AWS (EC2, ECS/EKS, Lambda), Azure, GCP, Docker, Kubernetes, OpenShift
-- DevOps & CI/CD: Maven, Gradle, Jenkins, GitLab CI, Azure DevOps, CodePipeline, CodeDeploy
+- Cloud & Containers: **AWS (EC2, EKS, RDS, Lambda)**, Azure, GCP, Docker, Kubernetes, OpenShift
+- DevOps & CI/CD: Maven, Gradle, Jenkins, GitLab CI, Azure DevOps, CodePipeline, CodeDeploy, **Ansible**, **Liquibase**
+- IaC & PAM: **Terraform**, **AWS CloudFormation**, ARM templates, **CyberArk**, HashiCorp Vault
 - Data & Persistence: PostgreSQL, MS SQL Server, Oracle, MongoDB, DynamoDB, Redis
 - Testing & Security: JUnit, Mockito, TestNG, Selenium, Pact/Contract Tests, SonarQube, Fortify
 - Observability: Prometheus, Grafana, DataDog, Splunk, CloudWatch
@@ -29,6 +36,9 @@ March 2022 – Present
 - Migrated legacy pipelines to Maven/Gradle, Docker images, and Kubernetes/OpenShift deployments; improved release velocity and reliability.
 - Integrated Okta for SSO and implemented OAuth2-based API security; led automated unit/integration testing adoption.
 - Partnered with Platform and DevSecOps teams to standardize artifact repositories, container scanning, and pipeline templates.
+- Implemented Infrastructure-as-Code using **Terraform** and **AWS CloudFormation** to provision and maintain cloud environments; integrated **CyberArk** for secure secret storage, automated rotation, and controlled privileged access across environments.
+- Implemented configuration management and automated provisioning using **Ansible**; managed DB schema and release migrations using **Liquibase**.
+- Built server-side components and automation utilities in **Node.js** and **TypeScript** to support data processing, cron jobs, and lightweight APIs.
 
 Manager, Solutions Engineering — Western Union, Pune, India  
 December 2021 – February 2022
@@ -38,8 +48,9 @@ December 2021 – February 2022
 Senior Applications Architect — Western Union, Denver, CO  
 September 2017 – November 2021
 - Led cloud migration of a legacy Compliance Hub to Spring Boot microservices and container platforms with multi-cloud exit strategy.
-- Delivered transaction-monitoring and reporting systems leveraging Kafka streaming and resilient integration designs.
-- Established automated DevOps pipelines (Jenkins, Ansible, Liquibase) to remove manual deployments and shorten lead times.
+- Delivered transaction-monitoring and regulatory reporting solutions leveraging Kafka streaming and resilient integration designs.
+- Established automated DevOps pipelines (Jenkins, **Ansible**, **Liquibase**) to remove manual deployments and shorten lead times.
+- Authored reusable **CloudFormation** and **Terraform** templates for repeatable environment provisioning and implemented **CyberArk**-based credential vaulting and access workflows for production systems.
 
 Applications Architect — Bureau of Labor Statistics (BLS), Washington DC  
 April 2016 – September 2017
@@ -62,10 +73,11 @@ TECHNICAL SKILLS
 
 | Category | Tools & Technologies |
 |---|---|
-| Languages & Frameworks | Java (8/11/17), Spring Boot, Spring Cloud, Hibernate, JPA, JavaScript, TypeScript |
+| Languages & Frameworks | Java (8/11/17), Spring Boot, Spring Cloud, Hibernate, JPA, JavaScript, **TypeScript**, **Node.js** |
 | Frontend | Angular (1.x → v12+), React, HTML5, CSS3 |
-| Cloud & Containers | AWS (EC2, ECS/EKS, Lambda), Azure, GCP, Docker, Kubernetes, OpenShift |
+| Cloud & Containers | **AWS (EC2, EKS, RDS, Lambda)**, Azure, GCP, Docker, Kubernetes, OpenShift |
 | CI/CD & Build | Maven, Gradle, Jenkins, GitLab CI, Azure DevOps, CodePipeline |
+| IaC, Config & PAM | **Terraform**, **AWS CloudFormation**, ARM, **Ansible**, **Liquibase**, **CyberArk**, HashiCorp Vault |
 | Databases | PostgreSQL, MS SQL Server, Oracle, MongoDB, DynamoDB, Redis |
 | Testing & Security | JUnit, Mockito, TestNG, Selenium, Pact, SonarQube, Fortify |
 | Observability | Prometheus, Grafana, DataDog, Splunk, CloudWatch |
