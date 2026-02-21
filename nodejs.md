@@ -936,4 +936,216 @@ project/
 
 ---
 
+Yes, Promises absolutely exist in Node.js. They're a core JavaScript feature and have been supported since Node.js v0.12. Here's what you need to know:
+
+✅ Promise Support in Node.js
+Availability:
+
+Node.js v0.12+ - Basic Promise support
+Node.js v4+ - Full ES2015 Promise support (recommended minimum)
+All modern versions (v12+) - Full support with async/await
+
+📝 Creating & Using Promises
+
+```shell
+// Creating a Promise
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Success!');
+  }, 1000);
+});
+
+// Using a Promise
+myPromise
+  .then(result => console.log(result))  // 'Success!'
+  .catch(error => console.error(error));
+
+// Async/Await (syntactic sugar over Promises)
+async function test() {
+  try {
+    const result = await myPromise;
+    console.log(result);  // 'Success!'
+  } catch (error) {
+    console.error(error);
+  }
+}
+```
+
+🔄 Practical Node.js Examples
+
+File System with Promises:
+
+```shell
+// Callback approach (old)
+const fs = require('fs');
+fs.readFile('file.txt', (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
+
+// Promise approach (modern)
+const fs = require('fs').promises;
+fs.readFile('file.txt', 'utf8')
+  .then(data => console.log(data))
+  .catch(err => console.error(err));
+
+// Async/Await approach (best)
+async function readFile() {
+  try {
+    const data = await fs.readFile('file.txt', 'utf8');
+    console.log(data);
+  } catch (err) {
+    console.error(err);
+  }
+}
+```
+
+HTTP Request with Promises:
+
+```shell
+// Promise-based HTTP request
+const http = require('http');
+
+function fetchData(url) {
+  return new Promise((resolve, reject) => {
+    http.get(url, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve(data));
+    }).on('error', reject);
+  });
+}
+
+// Using the promise
+fetchData('http://api.example.com/data')
+  .then(data => console.log('Data:', data))
+  .catch(err => console.error('Error:', err));
+
+// Or with async/await
+async function getData() {
+  try {
+    const data = await fetchData('http://api.example.com/data');
+    console.log('Data:', data);
+  } catch (err) {
+    console.error('Error:', err);
+  }
+}
+```
+🎯 Promise Methods Available in Node.js
+
+```shell
+// Promise.all - wait for all to resolve
+Promise.all([promise1, promise2, promise3])
+  .then(results => console.log(results))
+  .catch(err => console.error(err));
+
+// Promise.race - wait for first to resolve
+Promise.race([promise1, promise2])
+  .then(winner => console.log(winner))
+  .catch(err => console.error(err));
+
+// Promise.allSettled - wait for all to settle (success or fail)
+Promise.allSettled([promise1, promise2])
+  .then(results => {
+    console.log(results);
+    // [
+    //   { status: 'fulfilled', value: result1 },
+    //   { status: 'rejected', reason: error2 }
+    // ]
+  });
+
+// Promise.any - wait for first success
+Promise.any([promise1, promise2])
+  .then(winner => console.log(winner))
+  .catch(err => console.error(err));
+
+// Promise.resolve - create resolved promise
+const resolved = Promise.resolve('Done');
+
+// Promise.reject - create rejected promise
+const rejected = Promise.reject(new Error('Failed'));
+```
+
+📊 Promises vs Callbacks vs Async/Await
+
+```shell
+// Callback Hell (problematic)
+getData(function(a) {
+  getMoreData(a, function(b) {
+    getMoreData(b, function(c) {
+      getMoreData(c, function(d) {
+        // Deeply nested, hard to read
+      });
+    });
+  });
+});
+
+// Promise Chain (better)
+getData()
+  .then(a => getMoreData(a))
+  .then(b => getMoreData(b))
+  .then(c => getMoreData(c))
+  .then(d => console.log(d))
+  .catch(err => console.error(err));
+
+// Async/Await (best)
+async function process() {
+  try {
+    const a = await getData();
+    const b = await getMoreData(a);
+    const c = await getMoreData(b);
+    const d = await getMoreData(c);
+    console.log(d);
+  } catch (err) {
+    console.error(err);
+  }
+}
+```
+
+🚀 Modern Node.js Best Practices
+
+```shell
+// ✅ Use async/await (most readable)
+async function main() {
+  const result = await someAsyncOperation();
+  return result;
+}
+
+// ✅ Use Promise methods for parallel operations
+async function parallel() {
+  const [result1, result2, result3] = await Promise.all([
+    operation1(),
+    operation2(),
+    operation3()
+  ]);
+  return [result1, result2, result3];
+}
+
+// ❌ Avoid mixing callbacks and promises
+function badMixing(callback) {
+  return somePromise().then(result => {
+    callback(result);  // Don't mix patterns
+  });
+}
+
+// ✅ Return promises or use async/await consistently
+function goodApproach() {
+  return somePromise();
+}
+
+async function goodApproachAsync() {
+  return await somePromise();
+}
+```
+
+💡 Key Points
+1. Promises are built into Node.js - No library needed
+1. Native Promise API - Same as browser JavaScript
+1. Async/Await recommended - Cleaner syntax than .then()
+1. All modern APIs return Promises - fs.promises, http.request, etc.
+1. Error handling with try/catch - Preferred over .catch()
+1. Performance - Minimal overhead compared to callbacks
+
+Short answer: Yes, Promises fully exist and are the standard way to handle asynchronous operations in Node.js today. Async/Await is the modern preference built on top of Promises.
+
 **Good luck with your Node.js interviews!** 🚀
