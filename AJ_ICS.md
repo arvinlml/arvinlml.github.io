@@ -8,9 +8,10 @@
 
 - Around 12+ years of US experience and demonstrated history in all phases of SDLC, including but not limited to designing, development, implementation, supporting and architecting business solutions using Microsoft Technologies, from classic ASP to .Net core and still fairly language agnostic.
 - Though I have worked mostly in Microsoft .NET world, I often get projects in Java, Node.js, React, and Angular, and complete them on time.
+- **AWS Cloud Architect:** Led enterprise cloud migration of legacy Compliance Hub to AWS within 3 months with multi-cloud exit strategy; designed and deployed PCI-compliant infrastructure serving financial institutions; architected DevOps automation with Jenkins/Ansible eliminating 100% manual deployment time.
 - Have worked in Logistics, Government, Finance, Lending across multiple cross-cultural departments and sections of various organizations.
 - Seasoned professional with Masters (MCA) focused on Computer/Information Technology Administration and Management from Bharathidasan University.
-- Worked with various cloud platforms (AWS, Azure, Google Cloud) and plethora of integrated applications to solve and enhance business needs.
+- **Multi-Cloud Expertise:** Worked with AWS (EC2, Lambda, RDS, VPC, CloudFormation, CodePipeline), Azure (DevOps, Functions, Cosmos DB, SQL), and Google Cloud; created POCs and technical comparisons for enterprise platform selection.
 - Solid experience in development of JavaScript libraries, Plugins, Custom Workflow activities, Batch Jobs, and web portals facing Internal stake holders and External consumers.
 - Good knowledge of Active Directory, OIDC integrations, IDP providers.
 - Expertise in configuring security roles, business units, teams, field security profiles. Good knowledge of Web Development skills - HTML, XML, CSS, JavaScript, jQuery, Ajax, and Visual Studio Code.
@@ -37,7 +38,7 @@
 |----------|--------|
 | **Server Platforms** | Microsoft SQL Server, Microsoft Windows Server, Linux (various flavors), Unix |
 | **Languages** | Microsoft .Net Frameworks 1.0/2.0/3.5/4.6/4.7/4.8, DotNetCore, C#.NET, ASP.NET, MVC, JavaScript, TypeScript, Java 8/11/17, Node.js 12/16, Python |
-| **Cloud Platforms** | Azure, AWS, Google Cloud |
+| **Cloud Platforms** | **AWS** (EC2, Lambda, S3, RDS, VPC, CloudFormation, CodePipeline, CodeDeploy, Route 53) | **Azure** (DevOps, Functions, Cosmos DB, SQL) | Google Cloud | OpenShift Kubernetes | Docker |
 | **IDE and Tools** | MS Visual Studio (various versions), Visual Studio Code, IntelliJ, Eclipse, Spring Test Suite, MS Visio C# api |
 | **Web Technologies** | HTML, CSS, JavaScript, jQuery, XML, XAML, Fetch XML, JSON |
 | **Databases** | MS SQL Server, Oracle 11, IBM DB2, Sybase, Postgres, Mongo, DataStax |
@@ -99,15 +100,15 @@
 **September 2017 to November 2021**
 
 **Roles and Responsibilities:**
+- **AWS Cloud Migration:** Migrated legacy Compliance Hub to AWS within 3 months with multi-cloud exit strategy; maintained flexibility by avoiding AWS-native services; designed PCI-compliant infrastructure serving financial institutions
+- **DevOps Leadership:** Delivered end-to-end Jenkins/Ansible automation, eliminating 100% of manual deployments; established CI/CD pipelines integrating security scanning, artifact management, and automated deployments; received Bravo leadership recognition
+- **AWS Architecture & Services:** Deployed applications leveraging EC2, RDS, VPC, CloudFormation, and CodePipeline; implemented infrastructure-as-code practices with Terraform for repeatable deployments
 - Enhanced, refactored, and maintained iWatch, an internal core AML management tool
-- Led IT strategy to migrate legacy Compliance Hub to AWS in 3 months with exit strategy using Google Cloud
 - Delivered historical corrections using C#.NET while maintaining compliance with global regulators
 - Led offshore engineering team in Transaction Monitoring and Regulatory Reporting solutions built on Node.js and PHP
-- Delivered end-to-end DevOps automation using Jenkins, Ansible, Liquibase, removing 100% of manual processes and earning Bravo recognition
-- Compared AWS with Azure and GCP, creating POCs in Azure DevOps, Azure Functions, Cosmos DB, and Azure SQL
+- **Multi-Cloud Evaluation:** Compared AWS, Azure (DevOps, Functions, Cosmos DB, Azure SQL), and GCP; created POCs for enterprise cloud platform selection
 - Delivered PCI compliance within 3 months with external certification (RSM)
-- Implemented API security on C#.NET WCF services
-- Implemented Quantum Metrics for real-time web client instrumentation
+- **Security & API Management:** Implemented API security on C#.NET WCF services; implemented Quantum Metrics for real-time web client instrumentation
 
 ### Applications Architect, Bureau of Labor Statistics (BLS), Washington DC
 
